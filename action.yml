@@ -4,6 +4,13 @@ inputs:
   package_name: 
     description: 'package name'
     required: true
+  report_type:
+    description: 'whole report or just score'
+    required: false
+    default: score
+outputs:
+  linting_report:
+    description: 'Summary or just score from pylint'
 branding:
   icon: box
   color: gray-dark
