@@ -7,8 +7,7 @@ echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 pwd
 chmod +x ./docs/biopypir_docs/linting.sh
 ./docs/biopypir_docs/linting.sh
-cat pylint-report.txt
-
+ls
 echo "#################################################"
 echo "Completed ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
