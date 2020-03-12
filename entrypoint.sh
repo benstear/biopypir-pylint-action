@@ -10,8 +10,8 @@ echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 #echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 #ls
 
-chmod +x /docs/biopypir_docs/biopypir_lint.sh
-/docs/biopypir_docs/biopypir_lint.sh
+chmod +x ./docs/biopypir_docs/biopypir_lint.sh
+./docs/biopypir_docs/biopypir_lint.sh
 pwd
 echo "#################################################"
 echo "Completed ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
