@@ -8,8 +8,8 @@ echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 #echo Variable one: $1
 #echo "$*"
 #sh -c "$*"
-echo $PWD
-echo ls
+PWD
+ls -a
 chmod +x ./biopypir_linting.sh
 ./biopypir_linting.sh
 
