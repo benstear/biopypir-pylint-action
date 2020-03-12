@@ -4,8 +4,8 @@ set -e
 echo "#################################################"
 echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
-echo $0
-echo $1
+echo Variable zero: $0
+echo Variable one: $1
 
 sh -c "$*"
 
