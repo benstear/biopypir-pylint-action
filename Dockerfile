@@ -9,8 +9,8 @@ LABEL "com.github.actions.color"="black"
 RUN pip install --upgrade pip
 RUN pip install pylint
 
-COPY entrypoint.sh /
-COPY biopypir_linting.sh /
+COPY entrypoint.sh /entrypoint.sh
+COPY biopypir_linting.sh /biopypir_linting.sh
 
 
 RUN chmod +x /entrypoint.sh
