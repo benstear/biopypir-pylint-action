@@ -1,6 +1,6 @@
 name: Python Pylint Github Action
 description: 'Pylint Github Action running on python slim docker image'
-input:
+inputs:
   package_name: 
     description: 'package name'
     required: true
