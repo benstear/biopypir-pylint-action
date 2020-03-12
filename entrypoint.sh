@@ -5,8 +5,6 @@ echo "#################################################"
 echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
 chmod +x ./docs/biopypir_docs/linting.sh && ./docs/biopypir_docs/linting.sh
-echo "qqqqqqqqqqqqqqqq"
-chmod +x ./docs/biopypir_docs/install_dependencies.sh && ./docs/biopypir_docs/install_dependencies.sh
 
 echo "#################################################"
 echo "Completed ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
