@@ -11,8 +11,8 @@ echo "#################################################"
 echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
 echo "with PACKAGE_NAME: $INPUT_PACKAGE_NAME"
-echo "     Function: linting"
-echo "     Verbosity: $INPUT_VERBOSITY"
+echo "     Function:     Linting"
+echo "     Verbosity:    $INPUT_VERBOSITY"
 
 # if verbosity!= full_report || score_only, verbosity == default, echo verbosity input incorrect, using default.
 
@@ -29,4 +29,5 @@ echo "#################################################"
 echo "Completed ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
 
-##chmod +x ./docs/biopypir_docs/test_1.sh && ./docs/biopypir_docs/test_1.sh
+
+#chmod +x ./docs/biopypir_docs/test_1.sh && ./docs/biopypir_docs/test_1.sh
