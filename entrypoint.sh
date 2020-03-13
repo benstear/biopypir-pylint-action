@@ -18,7 +18,7 @@ echo "     Verbosity: $INPUT_VERBOSITY"
 
 if [ "$INPUT_VERBOSITY" == "full_report" ] 
   then
-  pylint "$INPUT_PACKAGE_NAME"  --exit-zero --reports=y | \ > pylint-report.txt 
+  pylint "$INPUT_PACKAGE_NAME"  --exit-zero --reports=y | > pylint-report.txt 
   
 elif [ "$INPUT_VERBOSITY" == "score_only" ] 
   then
