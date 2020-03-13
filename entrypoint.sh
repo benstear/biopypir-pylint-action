@@ -7,6 +7,7 @@ echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 if [ "$INPUT_PACKAGE_NAME" == "test" ] 
 then
 chmod +x ./docs/biopypir_docs/linting.sh && ./docs/biopypir_docs/linting.sh
+echo "you did it"
 fi
 #chmod +x ./docs/biopypir_docs/test_1.sh && ./docs/biopypir_docs/test_1.sh
 echo "#################################################"
