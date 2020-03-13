@@ -10,7 +10,7 @@ set -e
 echo "#################################################"
 echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
-echo "with PACKAGE_NAME: $INPUT_PACKAGE_NAME
+echo "with PACKAGE_NAME: $INPUT_PACKAGE_NAME"
 echo "     Function: linting"
 echo "     Verbosity: $INPUT_VERBOSITY"
 
