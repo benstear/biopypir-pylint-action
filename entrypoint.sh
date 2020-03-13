@@ -1,14 +1,21 @@
 #!/bin/bash
 set -e
 
+
+
+echo "$*"
+echo "$INPUT_PACKAGE_NAME"
+echo $INPUT_PACKAGE_NAME
+echo "$*" > args.txt
+cat args.txt
+
 echo "#################################################"
 echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
 #if [ "$1" == "test" ] 
 #then
-echo "$*"
-echo "$INPUT_PACKAGE_NAME"
-echo $INPUT_PACKAGE_NAME
+
+
 chmod +x ./docs/biopypir_docs/linting.sh && ./docs/biopypir_docs/linting.sh
 #fi
 #chmod +x ./docs/biopypir_docs/test_1.sh && ./docs/biopypir_docs/test_1.sh
