@@ -21,6 +21,7 @@ runs:
 steps:
 - uses: actions/checkout@master
 - name: Python Pylint Github Action
-  uses: fylein/python-pylint-github-action@master
+  #uses: fylein/python-pylint-github-action@master
+  uses: benstear/biopypir-pylint-action@master
   with:
     args: pylint --help
