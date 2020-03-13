@@ -7,12 +7,12 @@ set -e
 #### I think this will be general enough so that we won't have to change this 
 #### file at all on a user to user basis.
 
-#echo "#################################################"
-#echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
+echo "#################################################"
+echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
-#echo "with PACKAGE_NAME: $INPUT_PACKAGE_NAME"
-#echo "     Function: linting"
-#echo "     Verbosity: $INPUT_VERBOSITY"
+echo "with PACKAGE_NAME: $INPUT_PACKAGE_NAME"
+echo "     Function: linting"
+echo "     Verbosity: $INPUT_VERBOSITY"
 
 # if verbosity!= full_report || score_only, verbosity == default, echo verbosity input incorrect, using default.
 
