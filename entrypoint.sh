@@ -25,8 +25,8 @@ elif [ "$INPUT_VERBOSITY" = "score_only" ]
   awk '$0 ~ /Your code/ || $0 ~ /Global/ {print}' | cut -d'/' -f1 | rev | cut -d' ' -f1 | rev > pylint-report.txt 
 fi
 
-#echo "#################################################"
-#echo "Completed ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
+echo "#################################################"
+echo "Completed ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
 
 ##chmod +x ./docs/biopypir_docs/test_1.sh && ./docs/biopypir_docs/test_1.sh
