@@ -4,9 +4,11 @@ set -e
 echo "#################################################"
 echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
-if [ "$1" == "test" ] 
-then chmod +x ./docs/biopypir_docs/linting.sh && ./docs/biopypir_docs/linting.sh
-fi
+#if [ "$1" == "test" ] 
+#then
+echo "$1"
+chmod +x ./docs/biopypir_docs/linting.sh && ./docs/biopypir_docs/linting.sh
+#fi
 #chmod +x ./docs/biopypir_docs/test_1.sh && ./docs/biopypir_docs/test_1.sh
 echo "#################################################"
 echo "Completed ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
