@@ -6,7 +6,8 @@ echo "Starting ${GITHUB_WORKFLOW}:${GITHUB_ACTION}"
 
 #if [ "$1" == "test" ] 
 #then
-echo "$1"
+echo "$*"
+echo "$INPUT_report_type"
 chmod +x ./docs/biopypir_docs/linting.sh && ./docs/biopypir_docs/linting.sh
 #fi
 #chmod +x ./docs/biopypir_docs/test_1.sh && ./docs/biopypir_docs/test_1.sh
